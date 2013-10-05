@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/holaoperativo.c 
+../src/holaoperativo.c \
+../src/pruebac.c 
 
 OBJS += \
-./src/holaoperativo.o 
+./src/holaoperativo.o \
+./src/pruebac.o 
 
 C_DEPS += \
-./src/holaoperativo.d 
+./src/holaoperativo.d \
+./src/pruebac.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
